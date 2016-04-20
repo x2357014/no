@@ -11,5 +11,8 @@ padding:0;
 
 body{
 margin:0 1em;
+}
+
+p{
 white-space:pre-wrap;
 }
