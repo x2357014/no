@@ -1,0 +1,15 @@
+a,body,html,p{
+background-color:#fff;
+color:#000;
+font-family:monospace;
+font-size:1em;
+line-height:2em;
+margin:0;
+outline:0;
+padding:0;
+}
+
+body{
+margin:0 1em;
+white-space:pre-wrap;
+}
