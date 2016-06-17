@@ -13,10 +13,10 @@ body{
 display:table-cell;
 }
 
-body::before,body:before{
+p:before{
 content:' ';
 display:table-cell;
-white-space:no-wrap;
+white-space:pre;
 }
 
 img{
