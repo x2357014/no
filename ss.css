@@ -13,7 +13,7 @@ body{
 display:table-cell;
 }
 
-body:before{
+body::before,body:before{
 content:' ';
 display:table-cell;
 white-space:no-wrap;
