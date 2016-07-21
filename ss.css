@@ -471,3 +471,13 @@ display:table-cell;
 white-space:pre;
 content:'  ';
 }
+
+ul li{
+display:table;
+}
+
+ul li::before{
+display:table-cell;
+white-space:pre
+content:'- ';
+}
