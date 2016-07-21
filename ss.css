@@ -420,11 +420,19 @@ font:inherit;/* 2 */
 
 
 body{
+display:table;
 font-family:Menlo,"Courier New",Courier,monospace;
 font-size:1em;
 line-height:1em;
 margin:0;
 padding:0;
+}
+
+body::before,
+body::after{
+display:table-cell;
+white-space:pre;
+content:' ';
 }
 
 h1{
