@@ -417,3 +417,20 @@ opacity:0.54;
 -webkit-appearance:button;/* 1 */
 font:inherit;/* 2 */
 }
+
+
+body{
+font-family:Menlo,"Courier New",Courier,monospace;
+font-size:1em;
+line-height:1em;
+margin:0;
+padding:0;
+}
+
+h1{
+font-family:Menlo,"Courier New",Courier,monospace;
+font-size:1em;
+line-height:1em;
+margin:0;
+padding:6em 0;
+}
