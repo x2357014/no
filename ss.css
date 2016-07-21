@@ -423,6 +423,7 @@ body{
 display:table;
 font-family:Menlo,"Courier New",Courier,monospace;
 font-size:1em;
+font-weight:400;
 line-height:1em;
 margin:0;
 padding:0;
@@ -438,7 +439,25 @@ content:' ';
 h1{
 font-family:Menlo,"Courier New",Courier,monospace;
 font-size:1em;
+font-weight:400;
 line-height:1em;
 margin:0;
 padding:6em 0;
+}
+
+p{
+display:table;
+font-family:Menlo,"Courier New",Courier,monospace;
+font-size:1em;
+font-weight:400;
+line-height:1em;
+margin:0;
+padding:0;
+}
+
+p::before,
+p::after{
+display:table-cell;
+white-space:pre;
+content:'  ';
 }
