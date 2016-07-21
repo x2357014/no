@@ -426,23 +426,30 @@ font-size:1em;
 font-weight:400;
 line-height:1em;
 margin:0;
-padding:0;
+padding:1em 0 0 0;
 }
 
-body::before,
-body::after{
+body::after,
+body::before{
 display:table-cell;
 white-space:pre;
 content:' ';
 }
 
 h1{
+display:table;
 font-family:Menlo,"Courier New",Courier,monospace;
 font-size:1em;
 font-weight:400;
 line-height:1em;
 margin:0;
-padding:6em 0;
+padding:0 0 1em 0;
+}
+
+h1::before{
+display:table-cell;
+white-space:pre;
+content:'  ';
 }
 
 p{
@@ -452,44 +459,11 @@ font-size:1em;
 font-weight:400;
 line-height:1em;
 margin:0;
-padding:0;
+padding:0 0 1em 0;
 }
 
 p::before{
 display:table-cell;
 white-space:pre;
-content:'  ';
-}
-
-ul{
-display:table;
-font-family:Menlo,"Courier New",Courier,monospace;
-font-size:1em;
-font-weight:400;
-line-height:1em;
-margin:0;
-padding:0;
-}
-
-ul::before,
-ul::after{
-display:table-cell;
-white-space:pre;
-content:'  ';
-}
-
-ul li{
-display:table-cell;
-font-family:Menlo,"Courier New",Courier,monospace;
-font-size:1em;
-font-weight:400;
-line-height:1em;
-margin:0;
-padding:0;
-}
-
-ul li::before{
-display:table-cell;
-white-space:pre
-content:'- ';
+content:'              ';
 }
