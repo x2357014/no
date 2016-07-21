@@ -479,7 +479,7 @@ content:'  ';
 }
 
 ul li{
-display:table;
+display:table-cell;
 font-family:Menlo,"Courier New",Courier,monospace;
 font-size:1em;
 font-weight:400;
