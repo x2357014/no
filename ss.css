@@ -431,9 +431,10 @@ padding:1em 0 0 0;
 
 body::after,
 body::before{
-display:table-cell;
+display:table-row;
 white-space:pre;
-content:' ';
+background:black;
+content:'                                                                                ';
 }
 
 h1{
