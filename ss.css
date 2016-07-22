@@ -437,7 +437,7 @@ background:red;
 content:'12345678901234567890123456789012345678901234567890123456789012345678901234567890';
 }
 
-body::before::before{
+body::before::after{
 display:table-column;
 white-space:pre;
 background:green;
