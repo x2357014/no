@@ -424,22 +424,17 @@ font:inherit;/* 2 */
 *******************************************************************************/
 
 
-h1 { /* Chrome UA SS */
-    display: block;
-    font-size: 2em;
-    -webkit-margin-before: 0.67em;
-    -webkit-margin-after: 0.67em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    font-weight: bold;
+html,
+body{
+display:block;
 }
 
 html,
 body,
 h1,h2,h3,h4,h5,h6,
+p,pre,
 a,a:active,a:hover,a:link,a:visited{
 border:0;
-display:block;
 background:#fff;
 color:#333;
 font-family:Menlo,Monaco,Consolas,"source-code-pro","Liberation Mono","Ubuntu Mono",monospace;
