@@ -438,7 +438,7 @@ content:'12345678901234567890123456789012345678901234567890123456789012345678901
 }
 
 body+*::before,
-body+*::after{
+body:last-child{
 display:table-column;
 white-space:pre;
 background:green;
