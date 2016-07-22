@@ -436,7 +436,9 @@ p,pre,
 a,a:active,a:hover,a:link,a:visited{
 border:0;
 background:#fff;
+background-color:#fff;
 color:#333;
+cursor:auto;
 font-family:Menlo,Monaco,Consolas,"source-code-pro","Liberation Mono","Ubuntu Mono",monospace;
 font-size:1em;
 font-weight:900;
@@ -449,6 +451,7 @@ margin:0;
 outline:0;
 padding:0;
 text-decoration:none;
+-webkit-text-decoration:none;
 }
 
 
