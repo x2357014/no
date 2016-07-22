@@ -429,8 +429,8 @@ p,pre
 h1,h2,h3,h4,h5,h6,
 a,a:active,a:hover,a:link,a:visited,
 b,em,i,kbd,samp,strong{
-background:#fff;/* #002b36 1c1c1c 2d3c46*/
-color:#333; /* #839496 808080 */
+background:#fff;
+color:#333;
 font-family:Menlo,Monaco,Consolas,"source-code-pro","Liberation Mono","Ubuntu Mono",monospace;
 font-size:1em;
 font-weight:900;
@@ -441,7 +441,7 @@ padding:0;
 
 
 
-a{
+a,a:active,a:hover,a:link,a:visited{
 color:#c00;
 }
 
