@@ -425,11 +425,8 @@ font:inherit;/* 2 */
 
 
 html,
-body,
-p,pre
-h1,h2,h3,h4,h5,h6,
-a,a:active,a:hover,a:link,a:visited,
-b,em,i,kbd,samp,strong{
+body *{
+display:block;
 background:#fff;
 color:#333;
 font-family:Menlo,Monaco,Consolas,"source-code-pro","Liberation Mono","Ubuntu Mono",monospace;
@@ -439,6 +436,7 @@ line-height:1em;
 margin:0;
 padding:0;
 }
+
 
 
 
