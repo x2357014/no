@@ -420,6 +420,8 @@ font:inherit;/* 2 */
 
 
 body{
+background:#033;/* #002b36 */
+color:#899; /* #839496 */
 display:table;
 font-family:Menlo,"Courier New",Courier,monospace;
 font-size:1em;
