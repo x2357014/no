@@ -424,8 +424,8 @@ font:inherit;/* 2 */
 
 body{
 background:#fff;/* #002b36 1c1c1c 2d3c46*/
-color:#000; /* #839496 808080 */
-font-family:Menlo,"Courier New",Courier,monospace;
+color:#333; /* #839496 808080 */
+font-family:Menlo,Monaco,Consolas,"source-code-pro","Liberation Mono","Ubuntu Mono",monospace;
 font-size:1em;
 font-weight:900;
 line-height:1em;
