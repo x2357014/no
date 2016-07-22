@@ -431,20 +431,3 @@ margin:0;
 padding:0;
 }
 
-body::after,
-body::before{
-display:table-row;
-white-space:pre;
-background:red;
-content:'12345678901234567890123456789012345678901234567890123456789012345678901234567890';
-}
-
-body:first-child::before,
-body:last-child::after{
-display:table-column;
-white-space:pre;
-background:green;
-content:'a';
-height:25em;
-}
-
