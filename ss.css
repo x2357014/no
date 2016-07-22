@@ -424,6 +424,16 @@ font:inherit;/* 2 */
 *******************************************************************************/
 
 
+h1 { /* Chrome UA SS */
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
 html,
 body *{
 display:block;
@@ -434,6 +444,10 @@ font-size:1em;
 font-weight:900;
 line-height:1em;
 margin:0;
+-webkit-margin-before:0;
+-webkit-margin-after:0;
+-webkit-margin-start:0;
+-webkit-margin-end:0;
 padding:0;
 }
 
