@@ -422,7 +422,13 @@ font:inherit;/* 2 */
 ********************************************************************************
 *******************************************************************************/
 
-body{
+
+html,
+body,
+p,pre
+h1,h2,h3,h4,h5,h6,
+a,a:active,a:hover,a:link,a:visited,
+b,em,i,kbd,samp,strong{
 background:#fff;/* #002b36 1c1c1c 2d3c46*/
 color:#333; /* #839496 808080 */
 font-family:Menlo,Monaco,Consolas,"source-code-pro","Liberation Mono","Ubuntu Mono",monospace;
@@ -433,7 +439,10 @@ margin:0;
 padding:0;
 }
 
+
+
 a{
-color:#f00;
+color:#c00;
 }
+
 
