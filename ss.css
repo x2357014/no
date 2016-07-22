@@ -423,8 +423,8 @@ font:inherit;/* 2 */
 *******************************************************************************/
 
 body{
-background:#1c1c1c;/* #002b36 1c1c1c */
-color:#808080; /* #839496 808080 */
+background:#808080;/* #002b36 1c1c1c 2d3c46*/
+color:#2d3c46; /* #839496 808080 */
 font-family:Menlo,"Courier New",Courier,monospace;
 font-size:1em;
 font-weight:400;
