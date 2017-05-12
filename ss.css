@@ -429,6 +429,11 @@ body{
 display:block;
 }
 
+body{
+max-width:512px;
+margin:0 auto;
+}
+
 html,
 body,
 h1,h2,h3,h4,h5,h6,
@@ -454,7 +459,13 @@ text-decoration:none;
 -webkit-text-decoration:none;
 }
 
+h1{
+padding:3em 0;
+}
 
+p{
+padding:0 0 1em;
+}
 
 a,a:active,a:hover,a:link,a:visited{
 color:#333;
