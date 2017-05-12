@@ -458,20 +458,21 @@ text-decoration:none;
 
 
 body{
+ display:table;
 width:100%;
 max-width:512px;
 margin:0 auto;
+}
+body::before,
+body::after{
+ display:table-cell;
+ white-space:pre;
+ content:" ";
 }
 
 h1{
  display:table;
 padding:3em 0;
-}
-h1::before{
- display:table-cell;
- float:left;
- white-space:pre;
- content:" ";
 }
 
 h2{
@@ -480,7 +481,6 @@ padding:1em 0;
 }
 h1::before{
  display:table-cell;
- float:left;
  white-space:pre;
  content:"   ";
 }
