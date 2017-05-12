@@ -464,31 +464,33 @@ margin:0 auto;
 }
 
 h1{
+ display:table;
 padding:3em 0;
 }
 h1::before{
- display:block;
+ display:table-cell;
  float:left;
  white-space:pre;
  content:" ";
 }
 
 h2{
+ display:table;
 padding:1em 0;
 }
 h1::before{
- display:block;
+ display:table-cell;
  float:left;
  white-space:pre;
  content:"   ";
 }
 
 p{
+ display:table;
 padding:0 0 1em 0;
 }
 p::before{
- display:block;
- float:left;
+ display:table-cell;
  white-space:pre;
  content:"         ";
 }
