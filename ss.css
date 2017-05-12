@@ -458,41 +458,36 @@ text-decoration:none;
 
 
 body{
- display:table;
+display:table;
 width:100%;
 max-width:512px;
 margin:0 auto;
 }
 body::before,
 body::after{
- display:table-cell;
- white-space:pre;
- content:" ";
+display:table-cell;
+white-space:pre;
+content:" ";
 }
 
 h1{
- display:table;
+display:table;
 padding:3em 0;
 }
 
 h2{
- display:table;
+display:table;
 padding:1em 0;
-}
-h1::before{
- display:table-cell;
- white-space:pre;
- content:"   ";
 }
 
 p{
- display:table;
+display:table;
 padding:0 0 1em 0;
 }
 p::before{
  display:table-cell;
  white-space:pre;
- content:"         ";
+ content:"    ";
 }
 
 a,a:active,a:hover,a:link,a:visited{
