@@ -464,6 +464,22 @@ margin:0 auto;
 h1{
 padding:3em 0;
 }
+h1::before{
+ display:block;
+ float:left;
+ white-space:pre;
+ content:" ";
+}
+
+h2{
+padding:1em 0;
+}
+h1::before{
+ display:block;
+ float:left;
+ white-space:pre;
+ content:"   ";
+}
 
 p{
 padding:0 0 1em;
