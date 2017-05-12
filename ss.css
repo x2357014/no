@@ -427,6 +427,8 @@ font:inherit;/* 2 */
 html,
 body{
 display:block;
+margin:0;
+padding:0;
 }
 
 html,
@@ -482,7 +484,13 @@ h1::before{
 }
 
 p{
-padding:0 0 1em;
+padding:0 0 1em 0;
+}
+p::before{
+ display:block;
+ float:left;
+ white-space:pre;
+ content:"         ";
 }
 
 a,a:active,a:hover,a:link,a:visited{
