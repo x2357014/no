@@ -474,8 +474,12 @@ white-space:pre;
 content:"  ";
 }
 
+h1,h2,h3,h4,h5,h6{
+font-weight:900;
+}
+
 h1{
-padding:3em 0;
+padding:4em 0 3em;
 }
 
 h2{
