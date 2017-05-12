@@ -473,6 +473,7 @@ display:table-cell;
 white-space:pre;
 content:"  ";
 }
+
 h1{
 padding:3em 0;
 }
@@ -511,6 +512,7 @@ text-decoration:underline;
 }
 
 ul{
+display:block;
 margin:0;
 padding:0;
 }
