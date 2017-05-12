@@ -532,4 +532,29 @@ white-space:pre;
 content:"     -  ";
 }
 
+b,
+optgroup,
+strong
+{
+font-weight:900;
+}
+
+abbr,
+
+abbr[title]{
+
+border-bottom:none;
+
+text-decoration:none;
+
+}
+
+dfn{
+font-style:italic;
+}
+
+mark{
+background-color:#999;
+color:#000;
+}
 
