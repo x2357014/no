@@ -463,13 +463,16 @@ width:100%;
 max-width:512px;
 margin:0 auto;
 }
-body::before,
-body::after{
+body::before{
 display:table-cell;
 white-space:pre;
 content:" ";
 }
-
+body::after{
+display:table-cell;
+white-space:pre;
+content:"  ";
+}
 h1{
 padding:3em 0;
 }
@@ -515,12 +518,12 @@ padding:0;
 ul li{
 display:table;
 margin:0;
-padding:0;
+padding:0 0 1em;
 }
 ul li::before{
 display:table-cell;
 white-space:pre;
-content:"     o  ";
+content:"     -  ";
 }
 
 
