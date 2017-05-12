@@ -471,13 +471,25 @@ content:" ";
 }
 
 h1{
-display:table;
 padding:3em 0;
 }
 
 h2{
-display:table;
 padding:1em 0;
+}
+
+h3{
+padding:0;
+}
+
+h4{
+display:table;
+padding:0;
+}
+h4::before{
+display:table-cell;
+white-space:pre;
+content:"    "
 }
 
 p{
@@ -485,14 +497,30 @@ display:table;
 padding:0 0 1em 0;
 }
 p::before{
- display:table-cell;
- white-space:pre;
- content:"    ";
+display:table-cell;
+white-space:pre;
+content:"    ";
 }
 
 a,a:active,a:hover,a:link,a:visited{
 color:#333;
 text-decoration:underline;
+}
+
+ul{
+margin:0;
+padding:0;
+}
+
+ul li{
+display:table;
+margin:0;
+padding:0;
+}
+ul li::before{
+display:table-cell;
+white-space:pre;
+content:"     o  ";
 }
 
 
